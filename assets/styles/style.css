@@ -3,6 +3,8 @@
 @import url(./components/text.css);
 @import url(./components/button.css);
 @import url(./components/skills.css);
+@import url(./components/banner.css);
+@import url(./components/navbar.css);
 
 :root {
 	/*======== STANDARD COLORS ========*/
@@ -18,55 +20,9 @@
 
 	--shadow: 4px 4px 0px var(--black-900);
 
+	--separator: 10px solid;
+
 	/*======== TYPOGRAPHY ========*/
 	--font-fira: "Fira Code", monospace;
 	--font-press: "Press Start 2P", cursive;
-}
-
-/*=============== NAVBAR ===============*/
-
-#navbar {
-	padding: 15px 20px;
-
-	background-color: var(--black-900);
-	color: var(--color-third);
-
-	display: flex;
-	justify-content: space-between;
-	align-items: center;
-
-	border-bottom: 10px solid var(--color-first);
-}
-
-.navbar__list {
-	display: flex;
-	align-items: center;
-	justify-content: center;
-	column-gap: 30px;
-}
-
-/*Essa estrategia serve para selecionar apenas até o quarto elemento da lista*/
-.navbar__list li:nth-child(-n + 4)::before {
-	content: "";
-	display: inline-block;
-	width: 10px;
-	height: 10px;
-	background-color: var(--color-first);
-	margin-right: 10px;
-}
-
-/*=============== BANNER SECTION ===============*/
-#banner {
-	height: 100vh;
-}
-
-.banner__card {
-	background-color: #f25a70;
-	width: 50%;
-	padding: 42px 34px;
-	box-shadow: var(--shadow);
-}
-
-.banner__card .title {
-	margin-top: 30px;
 }

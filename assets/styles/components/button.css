@@ -1,20 +1,11 @@
-.btn,
-.btn-secondary {
+.btn {
 	background-color: #f25a70;
 	padding: 17px 20px;
 	transition: transform 250ms ease;
 	display: inline-block;
-}
-
-.btn {
-	box-shadow: 3px 3px 0px var(--color-third);
-}
-
-.btn-secondary {
 	box-shadow: var(--shadow);
 }
 
-.btn:hover,
-.btn-secondary:hover {
+.btn:hover {
 	transform: scale(1.08);
 }
