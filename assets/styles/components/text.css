@@ -1,0 +1,41 @@
+.title,
+.headline,
+.subtitle {
+	font-family: var(--font-press);
+	font-weight: 400;
+	text-shadow: var(--shadow);
+	color: var(--color-third);
+}
+
+.headline {
+	font-size: 2.5rem;
+}
+
+.title {
+	font-size: 1.875rem;
+}
+
+.subtitle {
+	font-size: 1.5rem;
+}
+
+.body,
+.body-2,
+.caption {
+	font-family: var(--font-fira);
+}
+
+.body {
+	font-weight: 300;
+	font-size: 1.875rem;
+}
+
+.body-2 {
+	font-weight: 500;
+	font-size: 1.5rem;
+}
+
+.caption {
+	font-weight: 400;
+	font-size: 1.5rem;
+}

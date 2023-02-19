@@ -1,0 +1,56 @@
+/*=============== IMPORTS ===============*/
+@import url(./reset.css);
+@import url(./components/text.css);
+@import url(./components/button.css);
+@import url(./components/skills.css);
+
+:root {
+	/*======== STANDARD COLORS ========*/
+	--color-first: #f25a70;
+	--color-second: #7c5e99;
+	--color-third: #ffffff;
+	--black-900: #000000;
+	--gray-500: #3a4042;
+	--gray-300: #828282;
+	--color-error: #ba1f33;
+	--color-warning: #ceb02a;
+	--color-success: #62c370;
+
+	--shadow: 4px 4px 0px var(--black-900);
+
+	/*======== TYPOGRAPHY ========*/
+	--font-fira: "Fira Code", monospace;
+	--font-press: "Press Start 2P", cursive;
+}
+
+/*=============== NAVBAR ===============*/
+
+#navbar {
+	padding: 15px 20px;
+
+	background-color: var(--black-900);
+	color: var(--color-third);
+
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+
+	border-bottom: 10px solid var(--color-first);
+}
+
+.navbar__list {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	column-gap: 30px;
+}
+
+/*Essa estrategia serve para selecionar apenas até o quarto elemento da lista*/
+.navbar__list li:nth-child(-n + 4)::before {
+	content: "";
+	display: inline-block;
+	width: 10px;
+	height: 10px;
+	background-color: var(--color-first);
+	margin-right: 10px;
+}
