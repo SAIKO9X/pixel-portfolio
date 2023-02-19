@@ -1,5 +1,10 @@
 .btn {
 	background-color: #f25a70;
+
+	color: var(--color-third);
+	font-weight: 500;
+	font-size: 1rem;
+
 	padding: 17px 20px;
 	transition: transform 250ms ease;
 	display: inline-block;

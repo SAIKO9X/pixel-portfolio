@@ -26,3 +26,26 @@
 	--font-fira: "Fira Code", monospace;
 	--font-press: "Press Start 2P", cursive;
 }
+
+body {
+	font-family: "Fira Code", monospace;
+	height: 100vh;
+}
+
+.navbar__logo {
+	color: var(--color-first);
+}
+
+::-webkit-scrollbar {
+	width: 5px;
+}
+
+::-webkit-scrollbar-track {
+	background: transparent;
+	padding: 2px;
+}
+
+::-webkit-scrollbar-thumb {
+	background-color: var(--color-first);
+	border-radius: 20px;
+}

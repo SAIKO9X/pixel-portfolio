@@ -6,6 +6,17 @@
 	border-bottom: var(--separator) var(--black-900);
 }
 
+.banner__wrapper {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	row-gap: 40px;
+
+	padding: 120px 0 0 100px;
+
+	width: 630px;
+}
+
 .banner__card {
 	background-color: #f25a70;
 	text-align: center;
@@ -15,4 +26,8 @@
 
 .banner__card .title {
 	margin-top: 30px;
+}
+
+.banner__button a:first-of-type {
+	margin-right: 100px;
 }
