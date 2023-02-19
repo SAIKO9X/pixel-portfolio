@@ -54,3 +54,19 @@
 	background-color: var(--color-first);
 	margin-right: 10px;
 }
+
+/*=============== BANNER SECTION ===============*/
+#banner {
+	height: 100vh;
+}
+
+.banner__card {
+	background-color: #f25a70;
+	width: 50%;
+	padding: 42px 34px;
+	box-shadow: var(--shadow);
+}
+
+.banner__card .title {
+	margin-top: 30px;
+}
